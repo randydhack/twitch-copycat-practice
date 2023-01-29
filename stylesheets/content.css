@@ -1,0 +1,86 @@
+.main-contents {
+    display: flex;
+    padding-top: 65px;
+    padding-left: 300px;
+}
+
+.left-arrow {
+    position: absolute;
+    top: 210px;
+    left: 280px;
+    width: 25px;
+    height: 25px;
+    border-style: none;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.right-arrow {
+    position: absolute;
+    top: 210px;
+    right: 30px;
+    width: 25px;
+    height: 25px;
+    border-style: none;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.content-image {
+    height: 300px;
+width: 500px;
+z-index: 201;
+}
+
+.streamer-contents {
+    display: flex;
+    position: absolute;
+    top: 80px;
+    left: 500px;
+}
+
+.streamer-info {
+    background-color: rgb(244, 244, 244);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0,0.5);
+    height: 300px;
+    width: 200px;
+    z-index: 200;
+}
+
+.content-image-1 {
+    position: absolute;
+    height: 250px;
+width: 450px;
+top: 20px;
+    left: 290px;
+    z-index: -1;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0,0.5);
+}
+
+.content-image-2 {
+    position: absolute;
+    height: 200px;
+width: 400px;
+top: 40px;
+    left: 380px;
+    z-index: -2;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0,0.5);
+}
+
+.content-image-3 {
+    position: absolute;
+    height: 250px;
+width: 450px;
+top: 20px;
+right: 290px;
+    z-index: -1;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0,0.5);
+}
+
+.content-image-4 {
+    position: absolute;
+    height: 200px;
+width: 400px;
+top: 40px;
+    right: 380px;
+    z-index: -2;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0,0.5);
+}

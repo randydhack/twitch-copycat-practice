@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <link rel="stylesheet" href="./stylesheets/main.css">
+    <link rel="stylesheet" href="./stylesheets/nav.css">
+    <link rel="stylesheet" href="./stylesheets/sidebar.css">
+    <link rel="stylesheet" href="./stylesheets/content.css">
+    <title>Twitch CopyCat</title>
+</head>
+
+<body>
+    <div id="root" class="root">
+        <header class="top-nav">
+            <div class="top-nav-menu">
+                <div class="top-nav-menu-left">
+                    <div class="menu-logo">
+                        <a class="logo-button" href="#"><i class='fa fa-twitch' style='color:#9147ff'></i></a>
+                    </div>
+                    <div class="menu-browse">
+                        <a class="browse-link" href="#">
+                            <p class="browse-text">Browse</p>
+                        </a>
+                    </div>
+                    <div class="menu-more">
+                        <div class="more-icon">
+                            <svg width="100%" height="100%" version="1.1" viewBox="0 0 20 20" x="0px" y="0px"
+                                class="ScIconSVG-sc-1q25cff-1 dSicFr">
+                                <g>
+                                    <path
+                                        d="M10 18a2 2 0 110-4 2 2 0 010 4zM10 12a2 2 0 110-4 2 2 0 010 4zM8 4a2 2 0 104 0 2 2 0 00-4 0z">
+                                    </path>
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="top-nav-menu-middle">
+                    <div class="search-bar">
+                        <div class="search-input">
+                            <div class="ScInputWrapper-sc-1fxjr4l-0 lePvEL tw-combo-input__input">
+                                <div data-a-target="tray-search-input" class="Layout-sc-1xcs6mc-0 bZVrjx"><input
+                                        aria-label="Search Input" aria-haspopup="grid" type="search"
+                                        class="ScInputBase-sc-vu7u7d-0 ScInput-sc-19xfhag-0 gXVFsI gzafRv InjectLayout-sc-1i43xsx-0 kvZgmT tw-input tw-input--large"
+                                        placeholder="   Search" autocapitalize="off" autocorrect="off"
+                                        autocomplete="twitch-nav-search" data-a-target="tw-input"
+                                        id="tw-7c303449400b81b28e298b21fb5b5f06" maxlength="150" spellcheck="false"
+                                        value=""></div>
+                            </div>
+                        </div>
+                        <div>
+                            <button
+                                class="button-icon ScCoreButton-sc-ocjdkq-0 ScCoreButtonSecondary-sc-ocjdkq-2 krrqDN hUInuk tw-combo-input__button-icon tw-combo-input__button-icon--large"
+                                icon="NavSearch" type="secondary" aria-label="Search Button" disabled="">
+                                <div class="ScButtonIconWrapper-sc-1fxjr4l-1 kLzLjx">
+                                    <div class="ScCoreButtonIcon-sc-ypak37-0 dtbnHL tw-core-button-icon">
+                                        <div data-a-selector="tw-core-button-icon"
+                                            class="ScIconLayout-sc-1q25cff-0 cMWGQu">
+                                            <div class="ScAspectRatio-sc-18km980-1 hTTohL tw-aspect">
+                                                <div class="ScAspectSpacer-sc-18km980-0 kiiGFY"></div><svg width="100%"
+                                                    height="100%" version="1.1" viewBox="0 0 20 20" x="0px" y="0px"
+                                                    class="ScIconSVG-sc-1q25cff-1 dSicFr search-icon">
+                                                    <g>
+                                                        <path fill-rule="evenodd"
+                                                            d="M13.192 14.606a7 7 0 111.414-1.414l3.101 3.1-1.414 1.415-3.1-3.1zM14 9A5 5 0 114 9a5 5 0 0110 0z"
+                                                            clip-rule="evenodd"></path>
+                                                    </g>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="top-nav-menu-right">
+                    <div class="login">
+                        <div>
+                            <button><a class="login-text" href="#">Log in</a></button>
+                        </div>
+                    </div>
+                    <div class="sign-up">
+                        <button><a class="sign-up-text" href="#">Sign up</a></button>
+                    </div>
+
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="sidebar-container">
+                <div class="sidebar-inner">
+                    <div class="sidebar-heading">
+                        <div class="recommended-channels">
+                            <h2>RECOMMENDED CHANNELS</h2>
+                            <img src="" alt="">
+                        </div>
+                        <div class="arrow-left">
+                            <button><i class="fa-solid fa-arrow-left"></i></button>
+                        </div>
+                    </div>
+
+                    <div class="sidebar-streamers">
+
+                        <a href="#">
+                            <div class="streamer-1">
+                                <div class="sidebar-icon">
+                                    <img class="sidebar-streamer-icon" src="https://static-cdn.jtvnw.net/jtv_user_pictures/ac27079a-9f80-45ec-81b0-979893c777a0-profile_image-70x70.png" alt="">
+                                </div>
+                                <div class="stream-info">
+                                    <p class="streamer-name">tarzaned</p>
+                                    <p class="streamer-game">League of Legends</p>
+                                </div>
+
+                            </div>
+                        </a>
+
+                        <a href="#">
+                            <div class="streamer-1">
+                                <div class="sidebar-icon">
+                                    <img class="sidebar-streamer-icon" src="https://static-cdn.jtvnw.net/jtv_user_pictures/ac27079a-9f80-45ec-81b0-979893c777a0-profile_image-70x70.png" alt="">
+                                </div>
+                                <div class="stream-info">
+                                    <p class="streamer-name">tarzaned</p>
+                                    <p class="streamer-game">League of Legends</p>
+                                </div>
+
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="streamer-1">
+                                <div class="sidebar-icon">
+                                    <img class="sidebar-streamer-icon" src="https://static-cdn.jtvnw.net/jtv_user_pictures/ac27079a-9f80-45ec-81b0-979893c777a0-profile_image-70x70.png" alt="">
+                                </div>
+                                <div class="stream-info">
+                                    <p class="streamer-name">tarzaned</p>
+                                    <p class="streamer-game">League of Legends</p>
+                                </div>
+
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="streamer-1">
+                                <div class="sidebar-icon">
+                                    <img class="sidebar-streamer-icon" src="https://static-cdn.jtvnw.net/jtv_user_pictures/ac27079a-9f80-45ec-81b0-979893c777a0-profile_image-70x70.png" alt="">
+                                </div>
+                                <div class="stream-info">
+                                    <p class="streamer-name">tarzaned</p>
+                                    <p class="streamer-game">League of Legends</p>
+                                </div>
+
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="streamer-1">
+                                <div class="sidebar-icon">
+                                    <img class="sidebar-streamer-icon" src="https://static-cdn.jtvnw.net/jtv_user_pictures/ac27079a-9f80-45ec-81b0-979893c777a0-profile_image-70x70.png" alt="">
+                                </div>
+                                <div class="stream-info">
+                                    <p class="streamer-name">tarzaned</p>
+                                    <p class="streamer-game">League of Legends</p>
+                                </div>
+
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="main-contents">
+                <div class="Layout-sc-1xcs6mc-0 eCJtcK featured-content-carousel">
+                    <div class="Layout-sc-1xcs6mc-0 emqwQG carousel-player-nav-arrow__container"
+                        data-test-selector="nav-arrow">
+                        <div class="Layout-sc-1xcs6mc-0 huNcbJ">
+                            <button class="left-arrow ScCoreButton-sc-ocjdkq-0 bSHCMy ScButtonIcon-sc-9yap0r-0 cahHqz"
+                                aria-label="Left Arrow" data-test-selector="featured-content-carousel-left-arrow"
+                                data-a-target="featured-item-left-button">
+                                <div class="ButtonIconFigure-sc-1emm8lf-0 jVlhN">
+                                    <div class="ScIconLayout-sc-1q25cff-0 cMWGQu">
+                                        <div class="ScAspectRatio-sc-18km980-1 hTTohL tw-aspect">
+                                            <div class="ScAspectSpacer-sc-18km980-0 kiiGFY">
+                                            </div>
+                                            <svg width="100%" height="100%" version="1.1" viewBox="0 0 20 20" x="0px"
+                                                y="0px" class="ScIconSVG-sc-1q25cff-1 dSicFr">
+                                                <g>
+                                                    <path d="M13.5 14.5L9 10l4.5-4.5L12 4l-6 6 6 6 1.5-1.5z"></path>
+                                                </g>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="Layout-sc-1xcs6mc-0 ciZCNN carousel-player-nav-arrow__container"
+                        data-test-selector="nav-arrow">
+                        <div class="Layout-sc-1xcs6mc-0 huNcbJ">
+                            <button class="right-arrow ScCoreButton-sc-ocjdkq-0 bSHCMy ScButtonIcon-sc-9yap0r-0 cahHqz"
+                                aria-label="Right Arrow" data-test-selector="featured-content-carousel-right-arrow"
+                                data-a-target="featured-item-right-button">
+                                <div class="ButtonIconFigure-sc-1emm8lf-0 jVlhN">
+                                    <div class="ScIconLayout-sc-1q25cff-0 cMWGQu">
+                                        <div class="ScAspectRatio-sc-18km980-1 hTTohL tw-aspect">
+                                            <div class="ScAspectSpacer-sc-18km980-0 kiiGFY"></div>
+                                            <svg width="100%" height="100%" version="1.1" viewBox="0 0 20 20" x="0px"
+                                                y="0px" class="ScIconSVG-sc-1q25cff-1 dSicFr">
+                                                <g>
+                                                    <path d="M6.5 5.5L11 10l-4.5 4.5L8 16l6-6-6-6-1.5 1.5z"></path>
+                                                </g>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="streamer-contents">
+                        <div class="streamer-video">
+                            <img class="content-image" src="https://img.freepik.com/free-vector/abstract-offline-twitch-banner-template_52683-40361.jpg?w=2000" alt="">
+                        </div>
+                        <div class="streamer-video">
+                            <img class="content-image-1" src="https://i0.wp.com/ugami.com/wp-content/uploads/2022/05/What-can-I-achieve-as-a-streamer.jpg?w=796&ssl=1" alt="">
+                        </div>
+                        <div class="streamer-video">
+                            <img class="content-image-2" src="https://ftw.usatoday.com/wp-content/uploads/sites/90/2021/10/tyler-ninja-blevins.jpg?w=1000&h=600&crop=1" alt="">
+                        </div>
+                        <div class="streamer-video">
+                            <img class="content-image-3" src="https://ftw.usatoday.com/wp-content/uploads/sites/90/2021/10/Sodapoppin.jpg" alt="">
+                        </div>
+                        <div class="streamer-video">
+                            <img class="content-image-4" src="https://ftw.usatoday.com/wp-content/uploads/sites/90/2021/10/pokimane-stream-fed-drama.jpg" alt="">
+                        </div>
+                        <div class="streamer-info">
+                            <div>
+                                STREAMER
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bottom-contents">
+                    <div>
+
+                    </div>
+                </div>
+            </div>
+        </main>
+
+    </div>
+
+
+</body>
+
+</html>

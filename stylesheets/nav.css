@@ -1,0 +1,123 @@
+.top-nav {
+    z-index: 1000;
+    position: fixed;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    flex-basis: 33%;
+}
+
+.top-nav-menu {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+
+.top-nav-menu-left {
+    display: flex;
+
+    align-items: center;
+
+}
+
+.fa-twitch {
+    padding: 0.5rem;
+    font-size: 28px;
+}
+
+.menu-browse {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.browse-link {
+    text-decoration: none;
+}
+
+.browse-text {
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.menu-more {
+    margin-left: 19px;
+}
+
+.more-icon {
+    height: 20px;
+}
+
+.top-nav-menu-middle {
+    display: flex;
+
+}
+
+.search-bar {
+    display: flex;
+    flex-basis: 40rem;
+    align-items: center;
+}
+
+.search-icon {
+    height: 25px;
+    width: 35px;
+}
+
+.top-nav-menu-right {
+    display: flex;
+    align-items: center;
+}
+
+.login {
+    margin-right: 10px;
+}
+
+.login button {
+    background-color: rgba(0, 0, 0, .05);
+    border-style: none;
+    height: 30px;
+    width: 60px;
+    border-radius: 3px;
+}
+
+.login-text {
+    font-weight: 500;
+    color: black;
+    font-weight: 600;
+}
+
+.sign-up {
+    margin-right: 20px;
+}
+
+.sign-up button {
+    background-color: #9147ff;
+    border-style: none;
+    height: 30px;
+    width: 60px;
+    border-radius: 3px;
+}
+
+.sign-up-text {
+    color: white;
+    font-weight: bold;
+}
+
+.gzafRv {
+    width: 370px;
+    height: 35px;
+    /* top-left | top-right | bottom-right | bottom-left */
+border-radius: 5px 0 0 5px;
+    background-color: rgba(0, 0, 0, .05);;
+    border-style: none;
+}
+
+.button-icon {
+    /* top-left | top-right | bottom-right | bottom-left */
+border-radius: 0 5px 5px 0;
+border-style: none;
+margin-left: 2px;
+background-color: rgba(0, 0, 0, .05);
+height: 35px;
+}

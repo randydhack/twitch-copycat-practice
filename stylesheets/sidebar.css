@@ -1,0 +1,64 @@
+.sidebar-container {
+    display: flex;
+    padding-top: 65px;
+    width: 17%;
+    height: 100000px;
+    position: fixed;
+    z-index: 500;
+    background-color: rgba(0, 0, 0, .05);
+}
+
+.sidebar-heading {
+    display: flex;
+    height: 30px;
+}
+
+.sidebar-heading button{
+    border-style: none;
+}
+
+.sidebar-inner {
+    margin-left: 15px;
+}
+
+
+.recommended-channels h2 {
+    font-size: 13px;
+}
+
+.arrow-left {
+    margin-left: 15px;
+}
+
+.sidebar-streamer-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+}
+
+.streamer-1 {
+    display: flex;
+    padding-top: 3px;
+}
+
+.streamer-name {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.streamer-game {
+    font-size: 14px;
+    color: gray;
+}
+
+.stream-info {
+    margin-left: 7px;
+}
+
+.sidebar-icon {
+    padding-top: 5px;
+}
+
+.sidebar-streamers a {
+    color: black;
+}
